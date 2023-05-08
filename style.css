@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family= Righteous & family= Sarala & display=swap');
+
+/* o '*' é um reset css para tirar todas as confg pre definidas */
+*{
+    /* é um espaçamento fora (nos 4 lados do elemento)*/
+    margin: 0;
+    /* PREENCHIMENTO */
+    padding: 0;
+    box-sizing: border-box;
+    /*pagina sem nenhuma decoração ou seja nenhuma auteração em texto ou palavras*/
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(100deg, #6d0237 40.62%, #080808 85.61%);
+}
+
+/* HEADER */
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+.logoCabecalho{
+    /*tamanho*/  
+    height: 100px;
+}
+
+.navegacaoCabecalho{
+    /*faz as tags filhos serem uma tag pai c/ os filhos ancora*/
+    display: flex;
+    gap: 32px;
+}
+
+.ancora{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    /* peso da fonte (grossura)*/
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* MAIN */
+.conteudo{
+    margin-bottom: 40px;
+    border-top: 1px solid #f5efea;
+}
+
+.conteudo-principal{
+    display: flex;
+    /*em forma de linha*/
+    flex-direction: row;
+    /* centraliza*/
+    align-items: center;
+    /* reajusta o espaçamento*/
+    justify-content: space-around;
+    padding: 50px;
+
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.conteudo-principal-titulo{
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+    font-weight: 400;
+    /*tamanho da fonte*/
+    font-size: 64px;
+}
+
+.conteudo-principal-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    /*tamanho da fonte*/
+    font-size: 24px;
+
+}
+/*pseudoclasse*/
+.conteudo-principal-butao:hover{
+    background: rgba(236, 214, 196, 0.53);
+}
+.conteudo-principal-butao{
+    display: flex;
+    /*cor do fundo do botão*/
+    background-color: #f5efea;
+    border: none;
+    /*tamnho p/ os lados*/
+    width: 180px;
+    /*tamanho p cima*/
+    height: 50px;
+    /*sombreamento*/
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    /*aredondar borda*/
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    justify-content: center;
+    padding: 10px;
+    font-style: oblique;
+    color: #080808;
+    
+}
+.conteudo-principal-logo{
+    height: 430px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    margin-top: 48px;
+}
+.conteudo-secundario-titulo{
+    border-top: 1px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFF2E7;
+    
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 1px solid #FFF2E7;
+}
+
+.rodape-imagem{
+    /*altura da imagem*/
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+
+
+
